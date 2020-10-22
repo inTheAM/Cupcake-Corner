@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct OrderView: View {
-	@State private var	results	=	[Result]()
 	
 	@ObservedObject	var order	=	Order()
 
@@ -25,9 +24,10 @@ struct OrderView: View {
 					
 					Stepper(value: $order.quantity, in:	3...20)	{
 						Text("Quantity: \(order.quantity)")
+							
 					}.padding()
 				}
-				.navigationTitle("Order")
+				
 				
 				Section	{
 					Toggle(isOn: $order.specialRequestEnabled.animation())	{
@@ -50,25 +50,12 @@ struct OrderView: View {
 						Text("Delivery details")
 					}
 				}
-			}
+			}.navigationTitle("Cupcake Corner")
 		}
 		
 	}
 }
 
-
-
-
-struct Response:	Codable {
-	var results:	[Result]
-}
-
-struct 	Result:	Codable {
-	var trackId:	Int
-	var trackName:	String
-	var collectionName:	String
-	
-}
 
 struct ContentView_Previews: PreviewProvider {
 	static var previews: some View {

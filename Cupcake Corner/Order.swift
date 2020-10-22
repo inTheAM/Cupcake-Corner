@@ -32,10 +32,7 @@ class Order:	ObservableObject,	Codable		{
 	
 	var hasValidAddress:	Bool	{
 		name.isEmpty	||	streetAddress.isEmpty	||	city.isEmpty	||	zip.isEmpty	?	false	:	true
-//		if name.isEmpty	||	streetAddress.isEmpty	||	city.isEmpty	||	zip.isEmpty	{
-//			return false
-//		}
-//		return true
+
 	}
 	
 	var cost:	Double	{
@@ -53,7 +50,6 @@ class Order:	ObservableObject,	Codable		{
 		if addSprinkles {
 			cost	+=	Double(quantity)	*	sprinkles
 		}
-		
 		
 		return cost
 	}
@@ -92,5 +88,5 @@ class Order:	ObservableObject,	Codable		{
 		zip	=	try	container.decode(String.self, forKey: .zip)
 	}
 	
-	init() {	}
+	init() {}
 }

@@ -14,8 +14,6 @@ struct AddressView: View {
 	
 	
 	var body: some View {
-		
-//		VStack {
 			Form	{
 				Section	{
 					TextField("Name",	text:	$order.name)
@@ -27,30 +25,17 @@ struct AddressView: View {
 			Section	{
 				NavigationLink(destination:	CheckoutView(order:	order))	{
 					Text("Proceed to Checkout")
-						//			Button("Proceed to Checkout")	{
-						//				self.showingCheckout	=	true
-						//			}
-//						.padding()
-					
-					//			.cornerRadius(10)
-					//			.disabled(order.hasValidAddress	==	false)
-					
 				}.disabled(order.hasValidAddress	==	false)
 				
 			}
-			//		.sheet(isPresented: $showingCheckout, content: {
-			//			CheckoutView(order: order)
-			//		})
-			
-			
 		}
 	}
 }
 	
 	
 	
-	struct AddressView_Previews: PreviewProvider {
-		static var previews: some View {
-			AddressView(order:	Order())
-		}
+struct AddressView_Previews: PreviewProvider {
+	static var previews: some View {
+		AddressView(order:	Order())
 	}
+}

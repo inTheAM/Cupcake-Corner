@@ -40,10 +40,7 @@ struct CheckoutView: View {
 			
 		}.resume()
 		
-		
 	}
-	
-	
 	var body: some View {
 		GeometryReader	{	geo in
 			ScrollView	{

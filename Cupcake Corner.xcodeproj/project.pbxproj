@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E260FB8A24E9068B007F5B09 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260FB8924E9068B007F5B09 /* Order.swift */; };
-		E260FB8C24E90697007F5B09 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260FB8B24E90697007F5B09 /* User.swift */; };
-		E260FB8E24E909D9007F5B09 /* LoginPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260FB8D24E909D9007F5B09 /* LoginPageView.swift */; };
 		E260FB9024E912A2007F5B09 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260FB8F24E912A2007F5B09 /* AddressView.swift */; };
 		E260FB9224EA8DDE007F5B09 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E260FB9124EA8DDE007F5B09 /* CheckoutView.swift */; };
-		E2610D4324F3A77D0004C98D /* MusicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2610D4224F3A77D0004C98D /* MusicView.swift */; };
 		E28B6D0324E3045300F2583C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B6D0224E3045300F2583C /* AppDelegate.swift */; };
 		E28B6D0524E3045300F2583C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B6D0424E3045300F2583C /* SceneDelegate.swift */; };
 		E28B6D0724E3045300F2583C /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B6D0624E3045300F2583C /* OrderView.swift */; };
@@ -23,11 +20,8 @@
 
 /* Begin PBXFileReference section */
 		E260FB8924E9068B007F5B09 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		E260FB8B24E90697007F5B09 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		E260FB8D24E909D9007F5B09 /* LoginPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageView.swift; sourceTree = "<group>"; };
 		E260FB8F24E912A2007F5B09 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 		E260FB9124EA8DDE007F5B09 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
-		E2610D4224F3A77D0004C98D /* MusicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicView.swift; sourceTree = "<group>"; };
 		E28B6CFF24E3045300F2583C /* Cupcake Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cupcake Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E28B6D0224E3045300F2583C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E28B6D0424E3045300F2583C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,13 +64,10 @@
 			children = (
 				E28B6D0224E3045300F2583C /* AppDelegate.swift */,
 				E28B6D0424E3045300F2583C /* SceneDelegate.swift */,
-				E260FB8D24E909D9007F5B09 /* LoginPageView.swift */,
 				E28B6D0624E3045300F2583C /* OrderView.swift */,
 				E260FB8F24E912A2007F5B09 /* AddressView.swift */,
 				E260FB9124EA8DDE007F5B09 /* CheckoutView.swift */,
 				E260FB8924E9068B007F5B09 /* Order.swift */,
-				E260FB8B24E90697007F5B09 /* User.swift */,
-				E2610D4224F3A77D0004C98D /* MusicView.swift */,
 				E28B6D0824E3045500F2583C /* Assets.xcassets */,
 				E28B6D0D24E3045500F2583C /* LaunchScreen.storyboard */,
 				E28B6D1024E3045500F2583C /* Info.plist */,
@@ -167,9 +158,6 @@
 				E28B6D0324E3045300F2583C /* AppDelegate.swift in Sources */,
 				E28B6D0524E3045300F2583C /* SceneDelegate.swift in Sources */,
 				E260FB8A24E9068B007F5B09 /* Order.swift in Sources */,
-				E2610D4324F3A77D0004C98D /* MusicView.swift in Sources */,
-				E260FB8E24E909D9007F5B09 /* LoginPageView.swift in Sources */,
-				E260FB8C24E90697007F5B09 /* User.swift in Sources */,
 				E260FB9224EA8DDE007F5B09 /* CheckoutView.swift in Sources */,
 				E28B6D0724E3045300F2583C /* OrderView.swift in Sources */,
 			);
